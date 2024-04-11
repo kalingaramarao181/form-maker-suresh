@@ -1,0 +1,13 @@
+.nav{
+  background-color: #36366f;
+  display: flex;
+  justify-content: space-around;
+  padding: 3vh;
+
+}
+.nav-Home{
+  color: white;
+  text-decoration: none;
+  font-size: 1.6vw;
+  font-family: roboto;
+}

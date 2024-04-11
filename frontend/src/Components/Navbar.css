@@ -1,0 +1,51 @@
+.Navlogin-button{
+    background-color: rgb(247, 177, 27);
+    padding: 0.5vw;
+    width: 5vw;
+    border: none;
+    border-radius: 0.4vh;
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+
+
+}
+ul li ul.droupdown {
+    display: block;
+ 
+    
+
+}
+ul li ul.droupdown {
+   width: 100%;
+   position: absolute;
+   z-index: 999;
+   display: none;
+
+
+}
+ul li a:hover{
+    background-color: rgb(247, 177, 27);
+    border: none;
+    width: 9vw;
+    border-radius: 0.4vh;
+    font-family: roboto;
+    text-align: center;
+
+}
+ul li:hover ul.droupdown{
+    display: block;
+}
